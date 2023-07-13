@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ArtVista</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <h1 class="logo">ArtVista</h1>
+      <ul class="nav-links">
+        <li class="active"><a href="#"></a>Home</li>
+        <li><a href="#"></a>Artists</li>
+        <li><a href="#"></a>Explore</li>
+        <li><a href="#"></a>About</li>
+        <li class="ctn" ><a href="#"></a>Contacts</li>
+      </ul>
+      <img src="./images/menubutton.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+      <div class="header-content">
+        <h2>Art Vista Explore The Colorful World</h2>
+        <div class="line"></div>
+
+        <h1>Art As Wonderful Gift</h1>
+        <a href="#" class="ctn">Explore more</a>
+      </div>
+    </header>
+   <section class="events">
+    <div class="title">
+      <h1>Popular Arts with Artist Info</h1>
+      <div class="line"></div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <img src="./images/4img.jpeg" alt="">
+        <h4>Jean-Michel Basquiat Art(in 1989)</h4>
+        <p>Jean-Michel Basquiat was an American artist who rose to success during the 1980s
+          born in new york city,u.s</p>
+          <a href="#" class="ctn">Learn More</a>
+      </div>
+      <div class="col">
+        <img src="./images/2img.jpeg" alt="">
+        <h4>Salvador Dali(1904)</h4>
+        <p>Salvador was a Spanish surrealist artist renowned for his techincal skill
+          .precise draftsmanship
+        </p>
+          <a href="#" class="ctn">Learn More</a>
+      </div>
+    </div>
+   </section>
+   <section class="explore">
+    <div class="explore-content">
+      <h1>EXPLORE THE DIFFERENT ART OF OUR CULTURE</h1>
+      <div class="line"></div>
+    <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic beatae voluptatibus veritatis. Qui, ex.</P>
+    <a href="#" class="ctn">Lean more</a>
+    </div>
+   </section>
+    <script>
+      const menuBtn = document.querySelector('.menu-btn')
+      const navlinks = document.querySelector('.nav-links')
+
+      menuBtn.addEventListener('click',()=>{
+        navlinks.classList.toggle('mobile-menu')
+      })
+    </script>
+  </body>
+</html>
